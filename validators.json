@@ -17,5 +17,19 @@
             "Decentr": "https://explorer.decentr.net/validators/decentrvaloper1nuhk7uke8ux2h7zpg44u7gyksgkz0fcjpf2074?networkId=mainnet",
             "Provenance": "https://www.mintscan.io/provenance/validators/pbvaloper12fhmc3l2g79zltg5ftl8k7mvwm9sz4pyydy9ry"
         }
+    },
+    {
+        "moniker": "CosmosDrops",
+        "country": "RU",
+        "contacts": {
+            "Telegram": "https://t.me/cosmosdropsio",
+            "Cайт": "https:/cosmosdrops.io"
+        },
+        "chains": {
+            "Nomic": "https://app.nomic.io/#/staking?tab=active-validators&validator=nomic1rspdrxe962kd3g76ne32n4nxz7dtu0kw5ll7p8&modal=info",
+            "e-Money": "https://www.mintscan.io/emoney/validators/emoneyvaloper17kts3kupmmgvhxsfhak86g0gwqy87lf4dptnpx",
+            "Bitsong": "https://www.mintscan.io/bitsong/validators/bitsongvaloper1qyc9ccfx7clj0kswgjz6cdf5f4n6v4nyeudy8q",
+            "Konstellation": "https://www.mintscan.io/konstellation/validators/darcvaloper1dx3d78zvrvmy2gle4vsfvlk75u296pkq66xdct"
+        }
     }
 ]

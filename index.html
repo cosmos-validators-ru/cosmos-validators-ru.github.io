@@ -83,7 +83,7 @@
           <section class="sections">
             <div class="columns">
               <div class="column is-10 is-offset-1">
-                <table class="table">
+                <table class="table is-fullwidth">
                     <thead>
                       <tr>
                         <th>Моникер</th>
@@ -159,7 +159,7 @@
     },
     mounted() {
       fetch('./validators.json').then(result => result.json()).then(result => {
-        this.validators = result;
+        this.validators = result.sort(() => 0.5 - Math.random()); // sorting randomly
       })
     }
   }).mount('#app')
