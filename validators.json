@@ -6,10 +6,17 @@
         "contacts": {
             "Telegram": "https://t.me/freak12techno",
             "Канал с новостями": "https://t.me/freak12techno_validator",
-            "Cайт": "https://freak12techno.github.io/validators"
+            "Cайт": "https://freak12techno.github.io/validators",
+            "Обо мне": "https://freak12techno.github.io"
         },
         "chains": {
-            "Nomic": "https://app.nomic.io/#/staking?tab=active-validators&validator=nomic1cugv7uxm0qw749jpjag5tw64k9wj0n3fe8vss5&modal=info"
+            "Nomic": "https://app.nomic.io/#/staking?tab=active-validators&validator=nomic1cugv7uxm0qw749jpjag5tw64k9wj0n3fe8vss5&modal=info",
+            "e-Money": "https://www.mintscan.io/emoney/validators/emoneyvaloper1jk4n79c5gv36972ptnly3rvx5nvn3hl3hgly9g",
+            "Sentinel": "https://www.mintscan.io/sentinel/validators/sentvaloper1rw9wtyhsus7jvx55v3qv5nzun054ma6kz4237k",
+            "Bitsong": "https://www.mintscan.io/bitsong/validators/bitsongvaloper14rvn7anf22e00vj5x3al4w50ns78s7n42rc0ge",
+            "Konstellation": "https://www.mintscan.io/konstellation/validators/darcvaloper1f5k67vac69zxwv5t03alsyd25fdr8hfy3ksysp",
+            "Decentr": "https://explorer.decentr.net/validators/decentrvaloper1nuhk7uke8ux2h7zpg44u7gyksgkz0fcjpf2074?networkId=mainnet",
+            "Provenance": "https://www.mintscan.io/provenance/validators/pbvaloper12fhmc3l2g79zltg5ftl8k7mvwm9sz4pyydy9ry"
         }
     }
 ]
