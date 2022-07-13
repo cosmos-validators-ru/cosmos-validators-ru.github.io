@@ -4,10 +4,12 @@
         "country": "RU",
         "about": "Hello<br />world",
         "contacts": {
-            "Telegram": "https://t.me/freak12techno"
+            "Telegram": "https://t.me/freak12techno",
+            "Канал с новостями": "https://t.me/freak12techno_validator",
+            "Cайт": "https://freak12techno.github.io/validators"
         },
         "chains": {
-            "Osmosis": "https://t.me/freak12techno"
+            "Nomic": "https://app.nomic.io/#/staking?tab=active-validators&validator=nomic1cugv7uxm0qw749jpjag5tw64k9wj0n3fe8vss5&modal=info"
         }
     }
 ]
