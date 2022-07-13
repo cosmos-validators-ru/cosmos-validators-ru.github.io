@@ -25,32 +25,14 @@
     <!-- START NAV -->
     <nav class="navbar">
       <div class="container">
-        <div class="navbar-brand">
-          <span class="navbar-burger burger" data-target="navbarMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div id="navbarMenu" class="navbar-menu">
-          <div class="navbar-end">
-            <div class=" navbar-item">
-              <div class="control has-icons-left">
-                <input class="input is-rounded" type="email" placeholder="Search">
-                <span class="icon is-left">
-                  <i class="fa fa-search"></i>
-                </span>
-              </div>
+        <div class="navbar-brand" style="width: 100%;">
+          <div class="navbar-item" style="width: 100%;">
+            <div class="control has-icons-left" style="width: 100%;">
+              <input class="input is-rounded" type="email" placeholder="Поиск по имени валидатора или списку сетей" style="width: 100%;" v-model="filter">
+              <span class="icon is-left">
+                <i class="fa fa-search"></i>
+              </span>
             </div>
-            <a class="navbar-item is-active is-size-5 has-text-weight-semibold">
-              Home
-            </a>
-            <a class="navbar-item is-size-5 has-text-weight-semibold">
-              Examples
-            </a>
-            <a class="navbar-item is-size-5 has-text-weight-semibold">
-              Features
-            </a>
           </div>
         </div>
       </div>
@@ -108,7 +90,7 @@
                       </tr>
                     </tfoot>
                     <tbody>
-                      <tr v-for="validator in validators">
+                      <tr v-for="validator in validatorsFiltered">
                         <th>{{ validator.moniker }}</th>
                         <td>{{ validator.country }}</td>
                         <td>
@@ -178,15 +160,31 @@
 <script>
   const { createApp } = Vue
 
+  function normalize(str) {
+    return str.replace(/[^a-z0-9]/gi, '').toLowerCase();
+  }
+
   createApp({
     data() {
       return {
         validators: [],
+        validatorsFiltered: [],
+        filter: '',
+      }
+    },
+    watch: {
+      filter(newFilter) {
+        const normalizedName = normalize(newFilter);
+        this.validatorsFiltered = this.validators.filter(v => {
+          return normalize(v.moniker).includes(normalizedName)
+            || Object.keys(v.chains).some(chain => normalize(chain).includes(normalizedName));
+        })
       }
     },
     mounted() {
       fetch('./validators.json').then(result => result.json()).then(result => {
         this.validators = result.sort(() => 0.5 - Math.random()); // sorting randomly
+        this.validatorsFiltered = this.validators
       })
     }
   }).mount('#app')
