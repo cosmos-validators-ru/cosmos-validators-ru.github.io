@@ -31,5 +31,31 @@
             "Bitsong": "https://www.mintscan.io/bitsong/validators/bitsongvaloper1qyc9ccfx7clj0kswgjz6cdf5f4n6v4nyeudy8q",
             "Konstellation": "https://www.mintscan.io/konstellation/validators/darcvaloper1dx3d78zvrvmy2gle4vsfvlk75u296pkq66xdct"
         }
+    },
+    {
+        "moniker": "Crypteloid",
+        "country": "RU",
+        "contacts": {
+            "Telegram": "https://t.me/mardiberm",
+            "Twitter": "https://twitter.com/iCrypteloid",
+            "E-mail": "stake@crypteloid.com",
+            "Канал с новостями": "https://t.me/crypteloid",
+            "Cайт": "https://stake.crypteloid.com"
+        },
+        "chains": {
+            "Juno": "https://www.mintscan.io/crescent/validators/junovaloper1m55p4c956dawa95uhzz027p4pwm3fedfkdtnyj",
+            "Sifchain": "https://www.mintscan.io/sifchain/validators/sifvaloper1rfs5e6eksqmmlj3ew70wrl6zqqt4hjv5zss4sa",
+            "E-money": "https://www.mintscan.io/crescent/validators/emoneyvaloper1m55p4c956dawa95uhzz027p4pwm3fedfhpz838",
+            "Comdex": "https://www.mintscan.io/crescent/validators/comdexvaloper1q78ujdpkrk3453axkmxcvw7v3luxhvrj3d78nz",
+            "Galaxy": "https://explorer.postcapitalist.io/galaxy/staking/galaxyvaloper1wxzxw6rrd44rrdmk2lzeg69qpljsfnk8e7fnv0",
+            "Crescent": "https://www.mintscan.io/crescent/validators/crevaloper1h5guaq2xerqj4svvttypy4ps6qhp52y0rmsycx",
+            "Bitsong": "https://www.mintscan.io/bitsong/validators/bitsongvaloper19mmq66klqpcqjztdaclaf5tvknn4mjkd9k9fup",
+            "Desmos": "https://www.mintscan.io/desmos/validators/desmosvaloper1e4g9807ephy5t7zzt6vu0kw7tryqh9k3mreujc",
+            "Gravity-bridge": "https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1u0sa7lkqt73n2cuvgxrcm82crg9pe8vjhryluh",
+            "Lum": "https://www.mintscan.io/lum/validators/lumvaloper1zdjugrud7hyc9fe22z4rkyt7n67sedjncdjvdg",
+            "Dig": "https://ping.pub/dig/staking/digvaloper1h89uhwk34hjey593maj2wxpksvyq568km37nps",
+            "Odin": "https://look.chillvalidation.com/odin/staking/odinvaloper1pcwlans8a2xtfddx04n6vhal5wx8jsvmxean8n",
+            "Vidulum": "https://ping.pub/vidulum/staking/vdlvaloper1hsdtcr98dpf8wszc3cp6qqdu727avzkuexsrdg"
+        }
     }
 ]
