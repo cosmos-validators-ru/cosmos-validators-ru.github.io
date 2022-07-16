@@ -38,15 +38,14 @@
         "contacts": {
             "Telegram": "https://t.me/mardiberm",
             "Twitter": "https://twitter.com/iCrypteloid",
-            "E-mail": "stake@crypteloid.com",
             "Канал с новостями": "https://t.me/crypteloid",
             "Cайт": "https://stake.crypteloid.com"
         },
         "chains": {
-            "Juno": "https://www.mintscan.io/crescent/validators/junovaloper1m55p4c956dawa95uhzz027p4pwm3fedfkdtnyj",
+            "Juno": "https://www.mintscan.io/juno/validators/junovaloper1m55p4c956dawa95uhzz027p4pwm3fedfkdtnyj",
             "Sifchain": "https://www.mintscan.io/sifchain/validators/sifvaloper1rfs5e6eksqmmlj3ew70wrl6zqqt4hjv5zss4sa",
-            "E-money": "https://www.mintscan.io/crescent/validators/emoneyvaloper1m55p4c956dawa95uhzz027p4pwm3fedfhpz838",
-            "Comdex": "https://www.mintscan.io/crescent/validators/comdexvaloper1q78ujdpkrk3453axkmxcvw7v3luxhvrj3d78nz",
+            "E-money": "https://www.mintscan.io/emoney/validators/emoneyvaloper1m55p4c956dawa95uhzz027p4pwm3fedfhpz838",
+            "Comdex": "https://www.mintscan.io/comdex/validators/comdexvaloper1q78ujdpkrk3453axkmxcvw7v3luxhvrj3d78nz",
             "Galaxy": "https://explorer.postcapitalist.io/galaxy/staking/galaxyvaloper1wxzxw6rrd44rrdmk2lzeg69qpljsfnk8e7fnv0",
             "Crescent": "https://www.mintscan.io/crescent/validators/crevaloper1h5guaq2xerqj4svvttypy4ps6qhp52y0rmsycx",
             "Bitsong": "https://www.mintscan.io/bitsong/validators/bitsongvaloper19mmq66klqpcqjztdaclaf5tvknn4mjkd9k9fup",
